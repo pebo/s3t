@@ -100,6 +100,7 @@ func main() {
     app.Action = func(c *cli.Context) {
         println("s3t -h for usage")
     }
+    app.Version = "v0.0.1"
 
     // global level flags
     app.Flags = []cli.Flag{
